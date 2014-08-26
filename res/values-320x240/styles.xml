@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NumberKeyLarge">
+        <item name="android:textSize">26.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="NumberKeySmall">
+        <item name="android:textSize">8.0sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="CallingKey">
+        <item name="android:textSize">20.0sp</item>
+    </style>
+</resources>

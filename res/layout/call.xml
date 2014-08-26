@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/reg_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0dip" android:textColor="@color/white" android:gravity="center" android:background="@drawable/bg_topbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/call_title" />
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/userbg" 
+        android:clickable="true"
+        android:onClick="malltime"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="115dip"
+        android:layout_marginBottom="50dip"
+        android:clickable="true"
+        android:scrollbars="vertical"
+        android:background="#FFFFFF">
+    <LinearLayout
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"> 
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="40dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/userdbg"
+            android:layout_gravity="center_horizontal">
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/more_account"
+                android:layout_marginLeft="5dip" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="账号：" />
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="15863210992" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/more_money" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="余额：" />
+
+            <TextView
+                android:id="@+id/userje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="999.99元" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="40dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/userdbg"
+            android:layout_gravity="center_horizontal">
+
+             <ImageView
+                 android:id="@+id/imageView3"
+                 android:layout_width="24dp"
+                 android:layout_height="match_parent"
+                 android:layout_marginLeft="5dip"
+                 android:src="@drawable/money" />
+
+
+            <TextView
+                android:id="@+id/userpay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="在线充值"
+                android:onClick="mpay" 
+                android:clickable="true"/>
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:gravity="center" />
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="24dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/more_change_account" />
+
+
+            <TextView
+                android:id="@+id/userpass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="修改密码" 
+                android:onClick="mpass"
+                android:clickable="true"/>
+            
+        </LinearLayout>
+		     <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="40dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/userdbg"
+            android:layout_gravity="center_horizontal">
+
+
+             <ImageView
+                 android:id="@+id/imageView3"
+                 android:layout_width="24dp"
+                 android:layout_height="match_parent"
+                 android:layout_marginLeft="5dip"
+                 android:src="@drawable/more_city_code_icon" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="包月到期：" />
+
+
+            <TextView
+                android:id="@+id/usertime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="malltime"
+                android:text="2013年12月27日 12:35:01" />
+
+        </LinearLayout>
+		<LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="40dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/userdbg"
+            android:layout_gravity="center_horizontal">
+
+             <ImageView
+                 android:id="@+id/imageView3"
+                 android:layout_width="24dp"
+                 android:layout_height="match_parent"
+                 android:layout_marginLeft="5dip"
+                 android:src="@drawable/more_call_set_icon" />
+
+            <TextView
+                android:id="@+id/userpay"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="上次登录：" />
+
+            <TextView
+                android:id="@+id/usertime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+				android:text="2013年12月27日 12:35:01"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="40dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/userdbg"
+            android:layout_gravity="center_horizontal">
+
+             <ImageView
+                 android:id="@+id/imageView3"
+                 android:layout_width="24dp"
+                 android:layout_height="match_parent"
+                 android:layout_marginLeft="5dip"
+                 android:src="@drawable/more_receive_msg_icon" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="客服：" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+				android:gravity="center"
+				android:text="2329986464"/>
+
+        </LinearLayout>
+      </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <include layout="@layout/home_footbar_layout"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="35dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:background="@drawable/usertop"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dip"
+            android:src="@drawable/more_person_info" />
+
+        <TextView
+            android:id="@+id/useryouhui"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dip"
+            android:layout_marginTop="-34dip"
+            android:text="最新优惠:智通独家推出20元包月套餐你没看错    20元不限时间真的随便打，省钱神器还不快开通"
+            android:textColor="@color/TextColorRed"
+            android:textSize="12dip" />
+
+    </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

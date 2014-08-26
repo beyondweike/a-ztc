@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/more_add" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+       <RelativeLayout android:background="@drawable/bg_topbar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="@dimen/contact_detail_topbar_btn_textsize" android:textColor="@color/white" android:gravity="center" android:id="@id/bind_return_btn" android:background="@drawable/reg_return" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/contact_detail_topbar_btn_left" android:text="@string/back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="mback"/>
+        <TextView android:textSize="24.0dip" android:textStyle="bold" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/more" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <include android:id="@id/more_scroll" layout="@layout/more" />
+</LinearLayout>

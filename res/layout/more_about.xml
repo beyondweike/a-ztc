@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/init_logo" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+     <RelativeLayout android:background="@drawable/bg_topbar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="@dimen/contact_detail_topbar_btn_textsize" android:textColor="@color/white" android:gravity="center" android:id="@id/bind_return_btn" android:background="@drawable/reg_return" android:paddingLeft="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/contact_detail_topbar_btn_left" android:text="@string/back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="mback"/>
+        <TextView android:textSize="24.0dip" android:textStyle="bold" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="关于我们" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip">
+        <TextView
+            android:id="@id/user_agreement"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            
+            android:layout_marginTop="20.0dip"
+            android:gravity="center_horizontal"
+            android:text="智通科技为你提供最好的网络电话"
+            android:textColor="#ff104e8b"
+            android:textColorLink="#ff104e8b"
+            android:textSize="18.0sp" />
+
+        <TextView android:textSize="18.0sp" android:textColorLink="#ff104e8b" android:gravity="center_horizontal" android:autoLink="web" android:id="@id/about_website" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="http://www.ztdx.hk/" android:layout_below="@id/user_agreement" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff104e8b" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="2010-2014©香港智通科技科技版权所有" android:layout_below="@id/about_website" />
+    </RelativeLayout>
+</FrameLayout>

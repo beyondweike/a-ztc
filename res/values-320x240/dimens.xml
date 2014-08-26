@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="LargeTextSize">17.0dip</dimen>
+    <dimen name="BasicTextSize">15.0dip</dimen>
+    <dimen name="TitleTextSize">18.0dip</dimen>
+    <dimen name="SmallTextSize">14.0dip</dimen>
+    <dimen name="ChattingContentMinHeight">49.0dip</dimen>
+    <dimen name="keyboard_edit_height">35.0dip</dimen>
+    <dimen name="keyboard_edit_text_size">22.0sp</dimen>
+    <dimen name="name_margin_top">2.0dip</dimen>
+    <dimen name="call_icon_padding_left">17.0dip</dimen>
+    <dimen name="keyboard_call_size">20.0sp</dimen>
+    <dimen name="keyboard_key_height">50.0dip</dimen>
+    <dimen name="contact_detail_photo_space">45.0dip</dimen>
+    <dimen name="contact_detail_leftright_space">40.0dip</dimen>
+    <dimen name="callButton_width">110.0sp</dimen>
+    <dimen name="callButton_height">40.0sp</dimen>
+</resources>

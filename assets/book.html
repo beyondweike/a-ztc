@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>意见反馈</title>
+<meta charset="utf-8" />
+<style>
+*{padding:0;margin:0;}
+body{height:100%; font:16px "微软雅黑","黑体",Verdana;word-wrap:break-word;word-break:break-all;background:#f6f6f6;color:#414a56;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+a{text-decoration:none;outline:0;color:#000; }
+a:hover{text-decoration:none;}
+
+.loginTiyan button {
+width: 94%;
+height: 45px;
+background: #77c84e;
+border: 0;
+color: #fff;
+font: 15px/45px "微软雅黑";
+display: block;
+margin: 3% auto 5px;
+}
+</style>
+</head>
+<body>
+	<div class="wrap">
+		<ul class="login">
+			<form name="registerfrm" id="registerfrm" method="GET" action="">
+				<ul><br><br>您的反馈将帮助我们更好的改进产品与服务<br><br>
+					<div align="center"><TEXTAREA id="mybook" NAME="content" ROWS="10" COLS="30" ></TEXTAREA></div>
+				</ul>
+			</form>
+		</ul>
+
+		<section>
+			<section class="loginTiyan">
+				<button  onclick="Checkbook();">立即提交</button>
+			</section>
+		</section>
+	</div>
+	<script>
+	function Checkbook(){
+	if (document.getElementById('mybook').value=="")
+	{
+		alert("抱歉：请填写您的反馈内容");
+	}
+	else
+	{
+	window.location.href="get:"+document.getElementById('mybook').value;
+	document.getElementById('mybook').value="";
+	}
+	}
+	</script>
+</body>
+</html>
