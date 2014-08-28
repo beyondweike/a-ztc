@@ -187,6 +187,13 @@ public class dianhua extends Activity {
     	   mmsg.setText("抱歉：上次通话数据统计中");
      	   return;
     	}
+    	
+    	if (getd.equals("Err"))
+    	{
+    		mmsg.setText("提交成功，系统会先拨打您的手机，然后自动接通对方手机");
+      	    return;
+    	}
+    	
     	JSONTokener jsonParser = new JSONTokener(getd);
         JSONObject person = (JSONObject) jsonParser.nextValue();
     	if (person.getString("zt").toString().equals("OK")==true)

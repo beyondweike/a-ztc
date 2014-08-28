@@ -51778,7 +51778,7 @@ _____________________________________________________________________
 
 Interfaces (count = 0):
 
-Constant Pool (count = 337):
+Constant Pool (count = 339):
   + Integer [2130903042]
   + Integer [2131165493]
   + Integer [2131165494]
@@ -51794,6 +51794,7 @@ Constant Pool (count = 337):
   + String [&pid=]
   + String [&tcall=]
   + String [00]
+  + String [Err]
   + String [Err0]
   + String [Err1]
   + String [Err2]
@@ -52010,6 +52011,7 @@ Constant Pool (count = 337):
   + Utf8 [<clinit>]
   + Utf8 [<init>]
   + Utf8 [Code]
+  + Utf8 [Err]
   + Utf8 [Err0]
   + Utf8 [Err1]
   + Utf8 [Err2]
@@ -52134,7 +52136,7 @@ Methods (count = 14):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 0, stack = 1):
       [0] aconst_null
-      [1] putstatic #70
+      [1] putstatic #71
         + Fieldref [com/android/ZhitongCall/dianhua.a Landroid/content/Context;]
       [4] return
       Code attribute exceptions (count = 0):
@@ -52145,16 +52147,16 @@ Methods (count = 14):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 17, locals = 1, stack = 4):
       [0] aload_0 v0
-      [1] invokespecial #76
+      [1] invokespecial #77
         + Methodref [android/app/Activity.<init> ()V]
       [4] aload_0 v0
-      [5] new #57
+      [5] new #58
         + Class [com/android/ZhitongCall/ak]
       [8] dup
       [9] aload_0 v0
-      [10] invokespecial #102
+      [10] invokespecial #103
         + Methodref [com/android/ZhitongCall/ak.<init> (Lcom/android/ZhitongCall/dianhua;)V]
-      [13] putfield #72
+      [13] putfield #73
         + Fieldref [com/android/ZhitongCall/dianhua.c Landroid/os/Handler;]
       [16] return
       Code attribute exceptions (count = 0):
@@ -52166,240 +52168,240 @@ Methods (count = 14):
     + Code attribute instructions (code length = 317, locals = 2, stack = 5):
       [0] aload_0 v0
       [1] aload_1 v1
-      [2] invokespecial #77
+      [2] invokespecial #78
         + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
       [5] aload_0 v0
       [6] iconst_1
-      [7] invokevirtual #112
+      [7] invokevirtual #113
         + Methodref [com/android/ZhitongCall/dianhua.requestWindowFeature (I)Z]
       [10] pop
       [11] aload_0 v0
       [12] ldc #1
         + Integer [2130903042]
-      [14] invokevirtual #113
+      [14] invokevirtual #114
         + Methodref [com/android/ZhitongCall/dianhua.setContentView (I)V]
       [17] aload_0 v0
-      [18] putstatic #70
+      [18] putstatic #71
         + Fieldref [com/android/ZhitongCall/dianhua.a Landroid/content/Context;]
       [21] aload_0 v0
       [22] aload_0 v0
       [23] ldc #5
         + Integer [2131165497]
-      [25] invokevirtual #108
+      [25] invokevirtual #109
         + Methodref [com/android/ZhitongCall/dianhua.findViewById (I)Landroid/view/View;]
-      [28] checkcast #49
+      [28] checkcast #50
         + Class [android/webkit/WebView]
-      [31] putfield #71
+      [31] putfield #72
         + Fieldref [com/android/ZhitongCall/dianhua.b Landroid/webkit/WebView;]
       [34] aload_0 v0
       [35] ldc #6
         + Integer [2131165506]
-      [37] invokevirtual #108
+      [37] invokevirtual #109
         + Methodref [com/android/ZhitongCall/dianhua.findViewById (I)Landroid/view/View;]
       [40] iconst_0
-      [41] invokevirtual #86
+      [41] invokevirtual #87
         + Methodref [android/view/View.setSelected (Z)V]
       [44] aload_0 v0
       [45] ldc #7
         + Integer [2131165508]
-      [47] invokevirtual #108
+      [47] invokevirtual #109
         + Methodref [com/android/ZhitongCall/dianhua.findViewById (I)Landroid/view/View;]
       [50] iconst_1
-      [51] invokevirtual #86
+      [51] invokevirtual #87
         + Methodref [android/view/View.setSelected (Z)V]
       [54] aload_0 v0
       [55] ldc #8
         + Integer [2131165510]
-      [57] invokevirtual #108
+      [57] invokevirtual #109
         + Methodref [com/android/ZhitongCall/dianhua.findViewById (I)Landroid/view/View;]
       [60] iconst_0
-      [61] invokevirtual #86
+      [61] invokevirtual #87
         + Methodref [android/view/View.setSelected (Z)V]
       [64] aload_0 v0
       [65] ldc #9
         + Integer [2131165512]
-      [67] invokevirtual #108
+      [67] invokevirtual #109
         + Methodref [com/android/ZhitongCall/dianhua.findViewById (I)Landroid/view/View;]
       [70] iconst_0
-      [71] invokevirtual #86
+      [71] invokevirtual #87
         + Methodref [android/view/View.setSelected (Z)V]
       [74] aload_0 v0
       [75] ldc #10
         + Integer [2131165514]
-      [77] invokevirtual #108
+      [77] invokevirtual #109
         + Methodref [com/android/ZhitongCall/dianhua.findViewById (I)Landroid/view/View;]
       [80] iconst_0
-      [81] invokevirtual #86
+      [81] invokevirtual #87
         + Methodref [android/view/View.setSelected (Z)V]
-      [84] getstatic #73
+      [84] getstatic #74
         + Fieldref [com/android/ZhitongCall/pul.a Ljava/lang/String;]
       [87] ldc #12
         + String []
-      [89] invokevirtual #119
+      [89] invokevirtual #120
         + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
       [92] ifne +14 (target=106)
-      [95] getstatic #74
+      [95] getstatic #75
         + Fieldref [com/android/ZhitongCall/pul.b Ljava/lang/String;]
       [98] ldc #12
         + String []
-      [100] invokevirtual #119
+      [100] invokevirtual #120
         + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
       [103] ifeq +40 (target=143)
-      [106] new #42
+      [106] new #43
         + Class [android/app/AlertDialog$Builder]
       [109] dup
-      [110] getstatic #70
+      [110] getstatic #71
         + Fieldref [com/android/ZhitongCall/dianhua.a Landroid/content/Context;]
-      [113] invokespecial #78
+      [113] invokespecial #79
         + Methodref [android/app/AlertDialog$Builder.<init> (Landroid/content/Context;)V]
-      [116] ldc #39
+      [116] ldc #40
         + String [登录超时]
-      [118] invokevirtual #81
+      [118] invokevirtual #82
         + Methodref [android/app/AlertDialog$Builder.setTitle (Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;]
-      [121] ldc #29
+      [121] ldc #30
         + String [抱歉：您的登录已超时请重新登录]
-      [123] invokevirtual #79
+      [123] invokevirtual #80
         + Methodref [android/app/AlertDialog$Builder.setMessage (Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;]
-      [126] ldc #40
+      [126] ldc #41
         + String [确定]
-      [128] new #58
+      [128] new #59
         + Class [com/android/ZhitongCall/al]
       [131] dup
       [132] aload_0 v0
-      [133] invokespecial #103
+      [133] invokespecial #104
         + Methodref [com/android/ZhitongCall/al.<init> (Lcom/android/ZhitongCall/dianhua;)V]
-      [136] invokevirtual #80
+      [136] invokevirtual #81
         + Methodref [android/app/AlertDialog$Builder.setPositiveButton (Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
-      [139] invokevirtual #82
+      [139] invokevirtual #83
         + Methodref [android/app/AlertDialog$Builder.show ()Landroid/app/AlertDialog;]
       [142] pop
       [143] aload_0 v0
-      [144] invokestatic #115
+      [144] invokestatic #116
         + Methodref [com/android/ZhitongCall/pul.a (Landroid/app/Activity;)V]
       [147] aload_0 v0
       [148] ldc #2
         + Integer [2131165493]
-      [150] invokevirtual #108
+      [150] invokevirtual #109
         + Methodref [com/android/ZhitongCall/dianhua.findViewById (I)Landroid/view/View;]
-      [153] checkcast #50
+      [153] checkcast #51
         + Class [android/widget/TextView]
-      [156] getstatic #74
+      [156] getstatic #75
         + Fieldref [com/android/ZhitongCall/pul.b Ljava/lang/String;]
-      [159] invokevirtual #99
+      [159] invokevirtual #100
         + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
-      [162] getstatic #75
+      [162] getstatic #76
         + Fieldref [com/android/ZhitongCall/pul.e Ljava/lang/String;]
       [165] ldc #12
         + String []
       [167] ifacmpeq +26 (target=193)
-      [170] getstatic #75
+      [170] getstatic #76
         + Fieldref [com/android/ZhitongCall/pul.e Ljava/lang/String;]
       [173] ldc #12
         + String []
-      [175] invokevirtual #119
+      [175] invokevirtual #120
         + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
       [178] ifne +15 (target=193)
       [181] aload_0 v0
-      [182] getstatic #75
+      [182] getstatic #76
         + Fieldref [com/android/ZhitongCall/pul.e Ljava/lang/String;]
-      [185] invokespecial #107
+      [185] invokespecial #108
         + Methodref [com/android/ZhitongCall/dianhua.b (Ljava/lang/String;)V]
       [188] ldc #12
         + String []
-      [190] putstatic #75
+      [190] putstatic #76
         + Fieldref [com/android/ZhitongCall/pul.e Ljava/lang/String;]
       [193] aload_0 v0
-      [194] getfield #71
+      [194] getfield #72
         + Fieldref [com/android/ZhitongCall/dianhua.b Landroid/webkit/WebView;]
-      [197] invokevirtual #95
+      [197] invokevirtual #96
         + Methodref [android/webkit/WebView.getSettings ()Landroid/webkit/WebSettings;]
       [200] dup
       [201] astore_1 v1
       [202] iconst_0
-      [203] invokevirtual #89
+      [203] invokevirtual #90
         + Methodref [android/webkit/WebSettings.setBuiltInZoomControls (Z)V]
       [206] aload_1 v1
       [207] iconst_0
-      [208] invokevirtual #93
+      [208] invokevirtual #94
         + Methodref [android/webkit/WebSettings.setSupportZoom (Z)V]
       [211] aload_1 v1
-      [212] getstatic #69
+      [212] getstatic #70
         + Fieldref [android/webkit/WebSettings$LayoutAlgorithm.NARROW_COLUMNS Landroid/webkit/WebSettings$LayoutAlgorithm;]
-      [215] invokevirtual #92
+      [215] invokevirtual #93
         + Methodref [android/webkit/WebSettings.setLayoutAlgorithm (Landroid/webkit/WebSettings$LayoutAlgorithm;)V]
       [218] aload_1 v1
-      [219] ldc #24
+      [219] ldc #25
         + String [utf-8]
-      [221] invokevirtual #91
+      [221] invokevirtual #92
         + Methodref [android/webkit/WebSettings.setDefaultTextEncodingName (Ljava/lang/String;)V]
       [224] aload_1 v1
       [225] iconst_0
-      [226] invokevirtual #88
+      [226] invokevirtual #89
         + Methodref [android/webkit/WebSettings.setAppCacheEnabled (Z)V]
       [229] aload_1 v1
       [230] iconst_1
-      [231] invokevirtual #87
+      [231] invokevirtual #88
         + Methodref [android/webkit/WebSettings.setAllowFileAccess (Z)V]
       [234] aload_1 v1
       [235] iconst_2
-      [236] invokevirtual #90
+      [236] invokevirtual #91
         + Methodref [android/webkit/WebSettings.setCacheMode (I)V]
       [239] aload_0 v0
-      [240] getfield #71
+      [240] getfield #72
         + Fieldref [com/android/ZhitongCall/dianhua.b Landroid/webkit/WebView;]
       [243] aload_0 v0
-      [244] ldc #23
+      [244] ldc #24
         + String [java2js]
-      [246] invokevirtual #94
+      [246] invokevirtual #95
         + Methodref [android/webkit/WebView.addJavascriptInterface (Ljava/lang/Object;Ljava/lang/String;)V]
       [249] aload_0 v0
-      [250] getfield #71
+      [250] getfield #72
         + Fieldref [com/android/ZhitongCall/dianhua.b Landroid/webkit/WebView;]
-      [253] new #60
+      [253] new #61
         + Class [com/android/ZhitongCall/an]
       [256] dup
       [257] aload_0 v0
       [258] iconst_0
-      [259] invokespecial #106
+      [259] invokespecial #107
         + Methodref [com/android/ZhitongCall/an.<init> (Lcom/android/ZhitongCall/dianhua;B)V]
-      [262] invokevirtual #97
+      [262] invokevirtual #98
         + Methodref [android/webkit/WebView.setWebViewClient (Landroid/webkit/WebViewClient;)V]
       [265] aload_0 v0
-      [266] getfield #71
+      [266] getfield #72
         + Fieldref [com/android/ZhitongCall/dianhua.b Landroid/webkit/WebView;]
-      [269] new #66
+      [269] new #67
         + Class [java/lang/StringBuilder]
       [272] dup
       [273] aload_0 v0
-      [274] invokevirtual #111
+      [274] invokevirtual #112
         + Methodref [com/android/ZhitongCall/dianhua.getResources ()Landroid/content/res/Resources;]
       [277] ldc #11
         + Integer [2131230721]
-      [279] invokevirtual #85
+      [279] invokevirtual #86
         + Methodref [android/content/res/Resources.getString (I)Ljava/lang/String;]
-      [282] invokestatic #122
+      [282] invokestatic #123
         + Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
-      [285] invokespecial #123
+      [285] invokespecial #124
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
-      [288] ldc #22
+      [288] ldc #23
         + String [index.php?c=main&a=getcalllist&username=]
-      [290] invokevirtual #124
+      [290] invokevirtual #125
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [293] getstatic #74
+      [293] getstatic #75
         + Fieldref [com/android/ZhitongCall/pul.b Ljava/lang/String;]
-      [296] invokevirtual #124
+      [296] invokevirtual #125
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [299] ldc #13
         + String [&pid=]
-      [301] invokevirtual #124
+      [301] invokevirtual #125
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [304] getstatic #73
+      [304] getstatic #74
         + Fieldref [com/android/ZhitongCall/pul.a Ljava/lang/String;]
-      [307] invokevirtual #124
+      [307] invokevirtual #125
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [310] invokevirtual #125
+      [310] invokevirtual #126
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [313] invokevirtual #96
+      [313] invokevirtual #97
         + Methodref [android/webkit/WebView.loadUrl (Ljava/lang/String;)V]
       [316] return
       Code attribute exceptions (count = 0):
@@ -52412,23 +52414,23 @@ Methods (count = 14):
       [0] aload_0 v0
       [1] ldc #3
         + Integer [2131165494]
-      [3] invokevirtual #108
+      [3] invokevirtual #109
         + Methodref [com/android/ZhitongCall/dianhua.findViewById (I)Landroid/view/View;]
-      [6] checkcast #50
+      [6] checkcast #51
         + Class [android/widget/TextView]
       [9] astore_1 v1
       [10] aload_0 v0
       [11] aload_1 v1
-      [12] invokevirtual #98
+      [12] invokevirtual #99
         + Methodref [android/widget/TextView.getText ()Ljava/lang/CharSequence;]
-      [15] invokeinterface #129
+      [15] invokeinterface #130
         + InterfaceMethodref [java/lang/CharSequence.toString ()Ljava/lang/String;]
-      [20] invokespecial #107
+      [20] invokespecial #108
         + Methodref [com/android/ZhitongCall/dianhua.b (Ljava/lang/String;)V]
       [23] aload_1 v1
       [24] ldc #12
         + String []
-      [26] invokevirtual #99
+      [26] invokevirtual #100
         + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
       [29] return
       Code attribute exceptions (count = 0):
@@ -52441,153 +52443,153 @@ Methods (count = 14):
       [0] aload_0 v0
       [1] ldc #4
         + Integer [2131165496]
-      [3] invokevirtual #108
+      [3] invokevirtual #109
         + Methodref [com/android/ZhitongCall/dianhua.findViewById (I)Landroid/view/View;]
-      [6] checkcast #50
+      [6] checkcast #51
         + Class [android/widget/TextView]
       [9] dup
       [10] astore_2 v2
-      [11] invokevirtual #98
+      [11] invokevirtual #99
         + Methodref [android/widget/TextView.getText ()Ljava/lang/CharSequence;]
-      [14] ldc #38
+      [14] ldc #39
         + String [数据提交中，请稍候...]
-      [16] invokevirtual #118
+      [16] invokevirtual #119
         + Methodref [java/lang/Object.equals (Ljava/lang/Object;)Z]
       [19] ifeq +4 (target=23)
       [22] return
       [23] aload_1 v1
       [24] ldc #12
         + String []
-      [26] invokevirtual #119
+      [26] invokevirtual #120
         + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
       [29] ifeq +17 (target=46)
       [32] aload_0 v0
-      [33] invokevirtual #110
+      [33] invokevirtual #111
         + Methodref [com/android/ZhitongCall/dianhua.getApplicationContext ()Landroid/content/Context;]
-      [36] ldc #33
+      [36] ldc #34
         + String [抱歉：请输入您要拨打的电话号码]
       [38] iconst_0
-      [39] invokestatic #100
+      [39] invokestatic #101
         + Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
-      [42] invokevirtual #101
+      [42] invokevirtual #102
         + Methodref [android/widget/Toast.show ()V]
       [45] return
       [46] aload_1 v1
       [47] iconst_0
       [48] iconst_1
-      [49] invokevirtual #120
+      [49] invokevirtual #121
         + Methodref [java/lang/String.substring (II)Ljava/lang/String;]
       [52] ldc #15
         + String [00]
-      [54] invokevirtual #119
+      [54] invokevirtual #120
         + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
       [57] ifeq +17 (target=74)
       [60] aload_0 v0
-      [61] invokevirtual #110
+      [61] invokevirtual #111
         + Methodref [com/android/ZhitongCall/dianhua.getApplicationContext ()Landroid/content/Context;]
-      [64] ldc #30
+      [64] ldc #31
         + String [抱歉：您输入的号码不正确]
       [66] iconst_0
-      [67] invokestatic #100
+      [67] invokestatic #101
         + Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
-      [70] invokevirtual #101
+      [70] invokevirtual #102
         + Methodref [android/widget/Toast.show ()V]
       [73] return
-      [74] getstatic #70
+      [74] getstatic #71
         + Fieldref [com/android/ZhitongCall/dianhua.a Landroid/content/Context;]
-      [77] invokestatic #116
+      [77] invokestatic #117
         + Methodref [com/android/ZhitongCall/pul.a (Landroid/content/Context;)Z]
       [80] ifne +17 (target=97)
       [83] aload_0 v0
-      [84] invokevirtual #110
+      [84] invokevirtual #111
         + Methodref [com/android/ZhitongCall/dianhua.getApplicationContext ()Landroid/content/Context;]
-      [87] ldc #32
+      [87] ldc #33
         + String [抱歉：网络连接失败]
       [89] iconst_0
-      [90] invokestatic #100
+      [90] invokestatic #101
         + Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
-      [93] invokevirtual #101
+      [93] invokevirtual #102
         + Methodref [android/widget/Toast.show ()V]
       [96] return
       [97] aload_2 v2
-      [98] ldc #38
+      [98] ldc #39
         + String [数据提交中，请稍候...]
-      [100] invokevirtual #99
+      [100] invokevirtual #100
         + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
       [103] aload_0 v0
-      [104] new #66
+      [104] new #67
         + Class [java/lang/StringBuilder]
       [107] dup
       [108] aload_0 v0
-      [109] invokevirtual #111
+      [109] invokevirtual #112
         + Methodref [com/android/ZhitongCall/dianhua.getResources ()Landroid/content/res/Resources;]
       [112] ldc #11
         + Integer [2131230721]
-      [114] invokevirtual #85
+      [114] invokevirtual #86
         + Methodref [android/content/res/Resources.getString (I)Ljava/lang/String;]
-      [117] invokestatic #122
+      [117] invokestatic #123
         + Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
-      [120] invokespecial #123
+      [120] invokespecial #124
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
-      [123] ldc #21
+      [123] ldc #22
         + String [index.php?c=main&a=getcall&username=]
-      [125] invokevirtual #124
+      [125] invokevirtual #125
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [128] getstatic #74
+      [128] getstatic #75
         + Fieldref [com/android/ZhitongCall/pul.b Ljava/lang/String;]
-      [131] invokevirtual #124
+      [131] invokevirtual #125
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [134] ldc #14
         + String [&tcall=]
-      [136] invokevirtual #124
+      [136] invokevirtual #125
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [139] aload_1 v1
-      [140] invokevirtual #124
+      [140] invokevirtual #125
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [143] ldc #13
         + String [&pid=]
-      [145] invokevirtual #124
+      [145] invokevirtual #125
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [148] new #66
+      [148] new #67
         + Class [java/lang/StringBuilder]
       [151] dup
-      [152] getstatic #74
+      [152] getstatic #75
         + Fieldref [com/android/ZhitongCall/pul.b Ljava/lang/String;]
-      [155] invokestatic #122
+      [155] invokestatic #123
         + Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
-      [158] invokespecial #123
+      [158] invokespecial #124
         + Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
       [161] aload_1 v1
-      [162] invokevirtual #124
+      [162] invokevirtual #125
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [165] invokevirtual #125
+      [165] invokevirtual #126
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [168] invokestatic #117
+      [168] invokestatic #118
         + Methodref [com/android/ZhitongCall/pul.a (Ljava/lang/String;)Ljava/lang/String;]
-      [171] invokevirtual #124
+      [171] invokevirtual #125
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [174] invokevirtual #125
+      [174] invokevirtual #126
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [177] astore_2 v2
       [178] astore_1 v1
-      [179] getstatic #70
+      [179] getstatic #71
         + Fieldref [com/android/ZhitongCall/dianhua.a Landroid/content/Context;]
-      [182] ldc #36
+      [182] ldc #37
         + String [提示：]
-      [184] ldc #37
+      [184] ldc #38
         + String [数据加载中，请稍后……]
-      [186] invokestatic #83
+      [186] invokestatic #84
         + Methodref [android/app/ProgressDialog.show (Landroid/content/Context;Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Landroid/app/ProgressDialog;]
       [189] astore_3 v3
-      [190] new #59
+      [190] new #60
         + Class [com/android/ZhitongCall/am]
       [193] dup
       [194] aload_1 v1
       [195] aload_2 v2
       [196] aload_3 v3
-      [197] invokespecial #104
+      [197] invokespecial #105
         + Methodref [com/android/ZhitongCall/am.<init> (Lcom/android/ZhitongCall/dianhua;Ljava/lang/String;Landroid/app/ProgressDialog;)V]
-      [200] invokevirtual #105
+      [200] invokevirtual #106
         + Methodref [com/android/ZhitongCall/am.start ()V]
       [203] return
       Code attribute exceptions (count = 0):
@@ -52596,102 +52598,114 @@ Methods (count = 14):
     Access flags: 0x11
       = public final void a(java.lang.String)
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 127, locals = 3, stack = 3):
+    + Code attribute instructions (code length = 143, locals = 3, stack = 3):
       [0] aload_0 v0
       [1] ldc #4
         + Integer [2131165496]
-      [3] invokevirtual #108
+      [3] invokevirtual #109
         + Methodref [com/android/ZhitongCall/dianhua.findViewById (I)Landroid/view/View;]
-      [6] checkcast #50
+      [6] checkcast #51
         + Class [android/widget/TextView]
       [9] astore_2 v2
       [10] aload_1 v1
-      [11] ldc #16
+      [11] ldc #17
         + String [Err0]
-      [13] invokevirtual #119
+      [13] invokevirtual #120
         + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
       [16] ifne +12 (target=28)
       [19] aload_1 v1
       [20] ldc #12
         + String []
-      [22] invokevirtual #119
+      [22] invokevirtual #120
         + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
       [25] ifeq +10 (target=35)
       [28] aload_2 v2
-      [29] ldc #34
+      [29] ldc #35
         + String [抱歉：验证失败请重试]
-      [31] invokevirtual #99
+      [31] invokevirtual #100
         + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
       [34] return
       [35] aload_1 v1
-      [36] ldc #18
+      [36] ldc #19
         + String [Err2]
-      [38] invokevirtual #119
+      [38] invokevirtual #120
         + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
       [41] ifeq +10 (target=51)
       [44] aload_2 v2
-      [45] ldc #28
+      [45] ldc #29
         + String [抱歉：同一号码拨号频繁]
-      [47] invokevirtual #99
+      [47] invokevirtual #100
         + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
       [50] return
       [51] aload_1 v1
-      [52] ldc #17
+      [52] ldc #18
         + String [Err1]
-      [54] invokevirtual #119
+      [54] invokevirtual #120
         + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
       [57] ifeq +10 (target=67)
       [60] aload_2 v2
-      [61] ldc #26
+      [61] ldc #27
         + String [开通包月后才能随便拨打哦]
-      [63] invokevirtual #99
+      [63] invokevirtual #100
         + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
       [66] return
       [67] aload_1 v1
-      [68] ldc #19
+      [68] ldc #20
         + String [Err3]
-      [70] invokevirtual #119
+      [70] invokevirtual #120
         + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
       [73] ifeq +10 (target=83)
       [76] aload_2 v2
-      [77] ldc #27
+      [77] ldc #28
         + String [抱歉：上次通话数据统计中]
-      [79] invokevirtual #99
+      [79] invokevirtual #100
         + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
       [82] return
-      [83] new #68
-        + Class [org/json/JSONTokener]
-      [86] dup
-      [87] aload_1 v1
-      [88] invokespecial #127
-        + Methodref [org/json/JSONTokener.<init> (Ljava/lang/String;)V]
-      [91] invokevirtual #128
-        + Methodref [org/json/JSONTokener.nextValue ()Ljava/lang/Object;]
-      [94] checkcast #67
-        + Class [org/json/JSONObject]
-      [97] ldc #25
-        + String [zt]
-      [99] invokevirtual #126
-        + Methodref [org/json/JSONObject.getString (Ljava/lang/String;)Ljava/lang/String;]
-      [102] invokevirtual #121
-        + Methodref [java/lang/String.toString ()Ljava/lang/String;]
-      [105] ldc #20
-        + String [OK]
-      [107] invokevirtual #119
+      [83] aload_1 v1
+      [84] ldc #16
+        + String [Err]
+      [86] invokevirtual #120
         + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
-      [110] ifeq +10 (target=120)
-      [113] aload_2 v2
-      [114] ldc #35
+      [89] ifeq +10 (target=99)
+      [92] aload_2 v2
+      [93] ldc #36
         + String [提交成功，系统会先拨打您的手机，然后自动接通对方手机]
-      [116] invokevirtual #99
+      [95] invokevirtual #100
         + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
-      [119] return
-      [120] aload_2 v2
-      [121] ldc #31
+      [98] return
+      [99] new #69
+        + Class [org/json/JSONTokener]
+      [102] dup
+      [103] aload_1 v1
+      [104] invokespecial #128
+        + Methodref [org/json/JSONTokener.<init> (Ljava/lang/String;)V]
+      [107] invokevirtual #129
+        + Methodref [org/json/JSONTokener.nextValue ()Ljava/lang/Object;]
+      [110] checkcast #68
+        + Class [org/json/JSONObject]
+      [113] ldc #26
+        + String [zt]
+      [115] invokevirtual #127
+        + Methodref [org/json/JSONObject.getString (Ljava/lang/String;)Ljava/lang/String;]
+      [118] invokevirtual #122
+        + Methodref [java/lang/String.toString ()Ljava/lang/String;]
+      [121] ldc #21
+        + String [OK]
+      [123] invokevirtual #120
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [126] ifeq +10 (target=136)
+      [129] aload_2 v2
+      [130] ldc #36
+        + String [提交成功，系统会先拨打您的手机，然后自动接通对方手机]
+      [132] invokevirtual #100
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [135] return
+      [136] aload_2 v2
+      [137] ldc #32
         + String [抱歉：数据提交错误，请重试]
-      [123] invokevirtual #99
+      [139] invokevirtual #100
         + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
-      [126] return
+      [142] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
   + Method:       mback(Landroid/view/View;)V
@@ -52700,7 +52714,7 @@ Methods (count = 14):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 2, stack = 1):
       [0] aload_0 v0
-      [1] invokevirtual #109
+      [1] invokevirtual #110
         + Methodref [com/android/ZhitongCall/dianhua.finish ()V]
       [4] return
       Code attribute exceptions (count = 0):
@@ -52710,18 +52724,18 @@ Methods (count = 14):
       = public void mcall1(android.view.View)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 17, locals = 2, stack = 4):
-      [0] new #44
+      [0] new #45
         + Class [android/content/Intent]
       [3] dup
       [4] aload_0 v0
-      [5] ldc #52
+      [5] ldc #53
         + Class [com/android/ZhitongCall/Call]
-      [7] invokespecial #84
+      [7] invokespecial #85
         + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
       [10] astore_1 v1
       [11] aload_0 v0
       [12] aload_1 v1
-      [13] invokevirtual #114
+      [13] invokevirtual #115
         + Methodref [com/android/ZhitongCall/dianhua.startActivity (Landroid/content/Intent;)V]
       [16] return
       Code attribute exceptions (count = 0):
@@ -52731,18 +52745,18 @@ Methods (count = 14):
       = public void mcall2(android.view.View)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 17, locals = 2, stack = 4):
-      [0] new #44
+      [0] new #45
         + Class [android/content/Intent]
       [3] dup
       [4] aload_0 v0
-      [5] ldc #56
+      [5] ldc #57
         + Class [com/android/ZhitongCall/Txl]
-      [7] invokespecial #84
+      [7] invokespecial #85
         + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
       [10] astore_1 v1
       [11] aload_0 v0
       [12] aload_1 v1
-      [13] invokevirtual #114
+      [13] invokevirtual #115
         + Methodref [com/android/ZhitongCall/dianhua.startActivity (Landroid/content/Intent;)V]
       [16] return
       Code attribute exceptions (count = 0):
@@ -52752,18 +52766,18 @@ Methods (count = 14):
       = public void mcall3(android.view.View)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 17, locals = 2, stack = 4):
-      [0] new #44
+      [0] new #45
         + Class [android/content/Intent]
       [3] dup
       [4] aload_0 v0
-      [5] ldc #53
+      [5] ldc #54
         + Class [com/android/ZhitongCall/Msg]
-      [7] invokespecial #84
+      [7] invokespecial #85
         + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
       [10] astore_1 v1
       [11] aload_0 v0
       [12] aload_1 v1
-      [13] invokevirtual #114
+      [13] invokevirtual #115
         + Methodref [com/android/ZhitongCall/dianhua.startActivity (Landroid/content/Intent;)V]
       [16] return
       Code attribute exceptions (count = 0):
@@ -52773,18 +52787,18 @@ Methods (count = 14):
       = public void mcall4(android.view.View)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 17, locals = 2, stack = 4):
-      [0] new #44
+      [0] new #45
         + Class [android/content/Intent]
       [3] dup
       [4] aload_0 v0
-      [5] ldc #54
+      [5] ldc #55
         + Class [com/android/ZhitongCall/Order]
-      [7] invokespecial #84
+      [7] invokespecial #85
         + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
       [10] astore_1 v1
       [11] aload_0 v0
       [12] aload_1 v1
-      [13] invokevirtual #114
+      [13] invokevirtual #115
         + Methodref [com/android/ZhitongCall/dianhua.startActivity (Landroid/content/Intent;)V]
       [16] return
       Code attribute exceptions (count = 0):
@@ -52794,18 +52808,18 @@ Methods (count = 14):
       = public void mcall5(android.view.View)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 17, locals = 2, stack = 4):
-      [0] new #44
+      [0] new #45
         + Class [android/content/Intent]
       [3] dup
       [4] aload_0 v0
-      [5] ldc #55
+      [5] ldc #56
         + Class [com/android/ZhitongCall/Other]
-      [7] invokespecial #84
+      [7] invokespecial #85
         + Methodref [android/content/Intent.<init> (Landroid/content/Context;Ljava/lang/Class;)V]
       [10] astore_1 v1
       [11] aload_0 v0
       [12] aload_1 v1
-      [13] invokevirtual #114
+      [13] invokevirtual #115
         + Methodref [com/android/ZhitongCall/dianhua.startActivity (Landroid/content/Intent;)V]
       [16] return
       Code attribute exceptions (count = 0):
@@ -52817,7 +52831,7 @@ Methods (count = 14):
     + Code attribute instructions (code length = 6, locals = 2, stack = 2):
       [0] aload_0 v0
       [1] aload_1 v1
-      [2] invokespecial #107
+      [2] invokespecial #108
         + Methodref [com/android/ZhitongCall/dianhua.b (Ljava/lang/String;)V]
       [5] return
       Code attribute exceptions (count = 0):
@@ -52828,7 +52842,7 @@ Methods (count = 14):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
-      [1] getfield #72
+      [1] getfield #73
         + Fieldref [com/android/ZhitongCall/dianhua.c Landroid/os/Handler;]
       [4] areturn
       Code attribute exceptions (count = 0):
